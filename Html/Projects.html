@@ -17,7 +17,16 @@
       background: none !important;
       -webkit-text-fill-color: white !important;
     }
-    
+
+    /* Styling for project dates */
+    .project-date {
+      color: var(--main-color) !important;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
   </style>
 </head>
 
@@ -42,18 +51,62 @@
   
     <div class="projects-grid">
 
-      <!-- Abusive Context Detection Pipeline -->
+      <!-- Data Chatbot for Automotive R&D -->
 <div class="project-card">
    <div class="project-content">
-       <h3>AI-Powered Speech Analysis Tool</h3>
-       <p>Recruitment platform eliminating English accent bias through objective speech analysis and automated candidate evaluation. Advanced NLP and speech processing for fair recruitment practices.</p>
+       <h3>Data Chatbot for Automotive R&D</h3>
+       <p class="project-date">February 2025 - May 2025</p>
+       <p>Developed intelligent automotive data chatbot for R&D teams to streamline vehicle performance analysis and engineering data queries. Created conversational AI interface with multi-modal capabilities for automated technical documentation parsing. Built sensor data interpretation and predictive maintenance insights system.</p>
        <div class="project-tech">
           <span>Python</span>
+          <span>Langgraph</span>
+          <span>Langchain</span>
+          <span>RAG</span>
+          <span>Vector Databases</span>
+          <span>LLMs</span>
+          <span>ML</span>
           <span>NLP</span>
-          <span>Speech Processing</span>
-          <span>Machine Learning</span>
+          <span>Next.js</span>
+          <span>FastAPI</span>
+          <span>PostgreSQL</span>
+       </div>
+   </div>
+</div>
+
+      <!-- AccentAI - Intelligent Speech Analysis -->
+<div class="project-card">
+   <div class="project-content">
+       <h3>AccentAI - Intelligent Speech Analysis for Hiring</h3>
+       <p class="project-date">May 2025</p>
+       <p>AI-powered accent detection tool for hiring teams that automatically analyzes candidate video recordings to classify English accents (American, British, Australian, etc.) with confidence scores and hiring recommendations.</p>
+       <div class="project-tech">
+          <span>OpenAI GPT-4o</span>
           <span>Whisper API</span>
-          <span>Automated Evaluation</span>
+          <span>Python</span>
+          <span>Advanced NLP</span>
+          <span>Real-time Audio Processing</span>
+       </div>
+   </div>
+</div>
+
+      <!-- AI-Powered Lead Qualification Agent -->
+<div class="project-card">
+   <div class="project-content">
+       <h3>AI-Powered Lead Qualification Agent</h3>
+       <p class="project-date">March 2025</p>
+       <p>Developed AI-powered Lead Qualification Agent for CRM automation with automated prospect scoring, email parsing, and data enrichment capabilities. Built intelligent system using machine learning algorithms to evaluate potential customers and prioritize high-quality leads, reducing manual sales team workload.</p>
+       <div class="project-tech">
+          <span>Python</span>
+          <span>Langgraph</span>
+          <span>Langchain</span>
+          <span>RAG</span>
+          <span>LLMs</span>
+          <span>ML</span>
+          <span>NLP</span>
+          <span>FastAPI</span>
+          <span>Angular</span>
+          <span>Neo4j</span>
+          <span>CRM Integration</span>
        </div>
    </div>
 </div>
@@ -74,22 +127,6 @@
    </div>
 </div>
 
-
-      <!-- Agentic AI Platform -->
-      <div class="project-card">
-         <div class="project-content">
-             <h3>Agentic AI Platform for Task Management Automation</h3>
-             <p>Advanced AI platform with voice/text support, automated Jira integration, OCR capabilities, and RAG systems for intelligent task management and workflow automation.</p>
-             <div class="project-tech">
-                <span>Python</span>
-                <span>Langgraph</span>
-                <span>Langchain</span>
-                <span>RAG</span>
-                <span>OCR</span>
-                <span>Jira Integration</span>
-              </div>
-          </div>
-      </div>
 
       <!-- University Faculty Web Scraper -->
 <div class="project-card">
@@ -119,34 +156,6 @@
         </div>
       </div>
   
-      <!-- Epileptic Seizure Classification -->
-      <div class="project-card">
-        <div class="project-content">
-          <h3>EEG Seizure Classification</h3>
-          <p>Graduation project focused on classifying seizure types from EEG data with optimized channel selection using XGBoost.</p>
-          <div class="project-tech">
-            <span>Python</span>
-            <span>MATLAB</span>
-            <span>MNE</span>
-            <span>XGBoost</span>
-          </div>
-        </div>
-      </div>
-  
-      <!-- OCR Pipeline with RVL-CDIP -->
-      <div class="project-card">
-        <div class="project-content">
-          <h3>Document OCR Pipeline</h3>
-          <p>Mini version of PixOCR built using the RVL-CDIP dataset with full preprocessing, OCR, and post-processing stages.</p>
-          <div class="project-tech">
-            <span>Python</span>
-            <span>OpenCV</span>
-            <span>Tesseract OCR</span>
-            <span>RVL-CDIP</span>
-          </div>
-        </div>
-      </div>
-  
       <!-- Netflix Data Dashboard -->
       <div class="project-card">
         <div class="project-content">
@@ -172,30 +181,70 @@
         </div>
       </div>
     </div>
-    <!-- Customer Churn Analysis -->
-    <div class="project-card">
-      <div class="project-content">
-        <h3>Customer Churn Analysis</h3>
-        <p>Exploratory data analysis and predictive modeling to identify customer churn patterns and retention strategies.</p>
-        <div class="project-tech">
-          <span>Pandas</span>
-          <span>Seaborn</span>
-          <span>Scikit-learn</span>
-          <span>Logistic Regression</span>
-        </div>
-      </div>
-    </div>
-  
-      <!-- Time Series Forecasting -->
+      <!-- Social Media Sentiment Mining -->
       <div class="project-card">
         <div class="project-content">
-          <h3>Time Series Forecasting</h3>
-          <p>Forecasted future product demand using time series analysis and ARIMA models on historical sales data.</p>
+          <h3>Social Media Sentiment Mining</h3>
+          <p class="project-date">January 2025</p>
+          <p>Data mining platform analyzing social media sentiment by country using NLP preprocessing, PCA dimensionality reduction, and K-means clustering to classify engagement patterns from likes and retweets.</p>
           <div class="project-tech">
-            <span>Pandas</span>
-            <span>Statsmodels</span>
-            <span>ARIMA</span>
-            <span>Visualization</span>
+            <span>Python</span>
+            <span>NLP</span>
+            <span>PCA</span>
+            <span>K-means Clustering</span>
+            <span>Data Mining</span>
+            <span>Sentiment Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COVID-19 Data Analysis -->
+      <div class="project-card">
+        <div class="project-content">
+          <h3>COVID-19 Data Analysis and Visualization</h3>
+          <p class="project-date">November 2024</p>
+          <p>Processed COVID-19 epidemiological data across continents with Hadoop and PowerBI visualization for comprehensive pandemic data insights.</p>
+          <div class="project-tech">
+            <span>Hadoop</span>
+            <span>PowerBI</span>
+            <span>Big Data</span>
+            <span>Data Visualization</span>
+            <span>Epidemiological Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Educational Content Recommendation System -->
+      <div class="project-card">
+        <div class="project-content">
+          <h3>Educational Content Recommendation System</h3>
+          <p class="project-date">February 2024 - May 2024</p>
+          <p>Recommendation system for children's educational content using Angular, Spring Boot, Python, ML, NLP and web scraping to provide personalized learning experiences.</p>
+          <div class="project-tech">
+            <span>Angular</span>
+            <span>Spring Boot</span>
+            <span>Python</span>
+            <span>ML</span>
+            <span>NLP</span>
+            <span>Web Scraping</span>
+            <span>Recommendation Systems</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- HelmaCreations E-commerce Platform -->
+      <div class="project-card">
+        <div class="project-content">
+          <h3>HelmaCreations E-commerce Platform</h3>
+          <p class="project-date">January 2022 - April 2022</p>
+          <p>Developed e-commerce platform as a dev community member at ENSI Junior Entreprise using MERN stack for complete online shopping experience.</p>
+          <div class="project-tech">
+            <span>MongoDB</span>
+            <span>Express.js</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MERN Stack</span>
+            <span>E-commerce</span>
           </div>
         </div>
       </div>
